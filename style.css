@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+    font-family: 'Poppins';
+    font-size: 60px;
+}
+
+.navbar {
+    height: 100%;
+    width: 100%;
+    color: #ffff;
+    text-align: center;
+}
+
+.button{
+    color: #fff;
+    background-color: #FF00E5;
+    border-color: #FF00E5;
+    border-radius: 30px;
+    width: auto;
+}
+/* 
+.btn-primary:hover {
+    color: #fff;
+    background-color: #FF00E5;
+    border-color: #FF00E5;
+    border-radius: 30px;
+} */
