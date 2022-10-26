@@ -17,6 +17,9 @@ body {
     color: #ffff;
     text-align: center;
 }
+.navbar-text{
+    color:#FFFFFF;
+}
 
 .button {
     color: #fff;
@@ -40,14 +43,12 @@ body {
     height: 134px;
     left: 61px;
     top: 293px;
-
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 900;
     font-size: 60px;
     line-height: 112%;
     text-transform: uppercase;
-
     color: #FFFFFF;
 }
 
