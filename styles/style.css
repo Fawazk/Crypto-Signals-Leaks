@@ -17,6 +17,7 @@ body {
 
 .navbar-text {
     color: #FFFFFF;
+    text-decoration: none;
 }
 
 .button {
@@ -161,6 +162,7 @@ body {
 }
 
 .footer {
+    display: block;
     position: fixed;
     left: 0;
     bottom: 0;
