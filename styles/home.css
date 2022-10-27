@@ -1,0 +1,52 @@
+
+.heading-text {
+    position: absolute;
+    width: 703px;
+    height: 134px;
+    left: 61px;
+    top: 293px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 112%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#subheading-text {
+    color: #FF00E5;
+}
+
+#qtag {
+    position: absolute;
+    width: 786px;
+    height: 32px;
+    left: 61px;
+    top: 520px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 28px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+#helo {
+    position: absolute;
+    width: 527px;
+    height: 58px;
+    left: 61px;
+    top: 577px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
