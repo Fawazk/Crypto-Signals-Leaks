@@ -3,22 +3,20 @@
     margin: 0;
     padding: 0;
 }
-
-
 body {
     background-color: black;
     font-family: 'Poppins';
     font-size: 60px;
 }
 
-.navbar {
+.navbar{
     height: 100%;
     width: 100%;
     color: #ffff;
-    text-align: center;
 }
 .navbar-text{
     color:#FFFFFF;
+    text-decoration: none;
 }
 
 .button {
@@ -114,3 +112,12 @@ body {
     z-index: 1;
     bottom: -10px;
     }
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin: 0;
+  }
