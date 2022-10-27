@@ -14,15 +14,9 @@ body {
     width: 100%;
     color: #ffff;
 }
-<<<<<<< HEAD
 
 .navbar-text {
     color: #FFFFFF;
-=======
-.navbar-text{
-    color:#FFFFFF;
-    text-decoration: none;
->>>>>>> 5c5cbed0108fedeac6f64dc0b05d1a0cfb458707
 }
 
 .button {
@@ -142,7 +136,6 @@ body {
     height: 50px;
     z-index: 1;
     bottom: -10px;
-<<<<<<< HEAD
 }
 
 
