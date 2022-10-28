@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+ul{
+    list-style-type: none;
+}
+
 body {
     background-color: black;
     font-family: 'Poppins';
@@ -57,7 +61,7 @@ body {
     border-color: #FF00E5;
     border-radius: 30px;
 } */
-
+/* 
 .footer {
     display: block;
     position: fixed;
@@ -67,4 +71,5 @@ body {
     color: white;
     text-align: center;
     margin: 0;
-  }
+  } */
+

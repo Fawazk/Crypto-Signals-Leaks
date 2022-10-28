@@ -54,11 +54,46 @@
     background: linear-gradient(90deg, rgba(255, 0, 299) 0%, rgba(232, 20, 230) 35%, rgba(98, 135, 235) 100%);
 }
 
+#big-tg-shape-btn{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-radius: 40px;
+    margin-top: 18px;
+    background: linear-gradient(90deg, rgba(255, 0, 299) 0%, rgba(232, 20, 230) 35%, rgba(98, 135, 235) 100%);
+}
+
+#tg-text{
+    position: absolute;
+    color: #FFFFFF;
+    padding-left: 40%;
+}
+
+#tg-shape-img{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 36%;
+}
+
 #telegram-image {
     width: 35px;
     height: 50px;
 }
 
+#tg-text-image-merge{
+    padding-top: 15px;
+}
+
 .second-row{
     background: linear-gradient(185deg, rgba(5, 5, 5) 12%, rgba(38, 5, 38) 50%);
+}
+
+.third-row{
+    background: rgba(38, 5, 38)
+}
+
+.subscription-card{
+    background: #160516;
+    padding-left: 50px;
 }
