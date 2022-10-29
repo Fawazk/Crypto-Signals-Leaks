@@ -95,5 +95,17 @@
 
 .subscription-card{
     background: #160516;
-    padding-left: 50px;
+    /* padding-left: 50px; */
+    padding-top: 35px;
 }
+
+.subscription-card-text{
+    color: #FFFFFF;
+    
+}
+
+.subscription-card-text-description{
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
