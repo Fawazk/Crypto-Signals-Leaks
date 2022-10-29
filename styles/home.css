@@ -94,6 +94,7 @@
 }
 
 .subscription-card{
+    position: relative;
     background: #160516;
     /* padding-left: 50px; */
     padding-top: 35px;
@@ -107,5 +108,11 @@
 .subscription-card-text-description{
     color: #FFFFFF;
     font-size: 14px;
+}
+
+.subscribtion-getstarted{
+    margin-left: 20%;
+    padding-bottom: 5%;
+
 }
 
