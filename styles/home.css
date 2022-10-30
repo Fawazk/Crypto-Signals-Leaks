@@ -50,15 +50,17 @@
 #tg-shape-btn {
     position: relative;
     width: 160px;
-    height: 30px;
+    height: 38px;
+    bottom: -273px;
+    
     border-radius: 40px;
     background: linear-gradient(90deg, rgba(255, 0, 299) 0%, rgba(232, 20, 230) 35%, rgba(98, 135, 235) 100%);
 }
 
 .tg-img-svg{
     position: absolute;
-    margin-left: -24px;
-    width: 34%;
+    margin-left: -25px;
+    width: 40%;
 }
 
 #big-tg-shape-btn{
@@ -131,10 +133,21 @@
 
 #background-gradient-img{
     position: absolute;
-    right: 10px;
+    right: 90px;
     width: 100%;
 }
 
 #background-img{
     width: 100%;
 }
+
+#first-section-text{
+    position: relative;
+    top: 200px;
+}
+
+#second-section-text{
+    position: relative;
+    bottom: -215px;
+}
+
