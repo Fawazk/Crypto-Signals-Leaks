@@ -123,3 +123,18 @@
 
 }
 
+
+.first-right-side{
+    position: relative;
+    top: 10px;
+}
+
+#background-gradient-img{
+    position: absolute;
+    right: 10px;
+    width: 100%;
+}
+
+#background-img{
+    width: 100%;
+}

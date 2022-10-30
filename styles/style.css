@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+
 }
 
 ul{
@@ -12,6 +13,8 @@ body {
     background-color: black;
     font-family: 'Poppins';
     font-size: 60px;
+
+
 }
 
 .navbar{
