@@ -171,20 +171,6 @@
     border-radius: 40px;
     background: linear-gradient(90deg, rgba(255, 0, 299) 0%, rgba(232, 20, 230) 35%, rgba(98, 135, 235) 100%);
 }
-/* @media only screen and (min-width: 767) and (max-width: 1000px){
-
-    #background-img-mobile{
-        bottom: 4em;
-    }
-
-    #background-gradient-img{
-        bottom: 4em;
-    }
-
-    #background-img{
-        bottom: 4em;
-    }
-} */
 
 @media only screen and (min-width: 400px) and (max-width: 767px){
     .first-right-side{
@@ -193,6 +179,7 @@
 
 
 }
+
 
 @media only screen and (min-width: 768px) and (max-width: 993px){
 
@@ -222,3 +209,25 @@
 }
 
 
+
+@media only screen and (min-width: 393px) and (max-width: 767px){
+    #tg-shape-btn{
+        top: 30px;
+        margin-left: 14px;
+
+    }
+
+    #first-section-text{
+        top: 10px;
+    }
+
+    #second-section-text{
+        top: 20px;
+    }
+
+    .first-right-side{
+        margin-top: 9px;
+    }
+
+
+}
