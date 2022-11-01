@@ -79,9 +79,9 @@
 
 #tg-shape-img{
     position: absolute;
-    width: 35px;
-    height: 35px;
-    left: 36%;
+    width: 28px;
+    height: 30px;
+    left: 32%;
 }
 
 #telegram-image {
@@ -149,4 +149,76 @@
     position: relative;
     bottom: -215px;
 }
+
+#background-img-mobile{
+    position: absolute;
+    bottom: 0em;
+    width: 82%;
+}
+
+#background-gradient-img{
+    margin-top: 0em;
+}
+
+#background-img{
+    bottom: 0em;
+}
+
+.tg-shape-btn-subscribtion{
+    position: relative;
+    width: 160px;
+    height: 38px;
+    border-radius: 40px;
+    background: linear-gradient(90deg, rgba(255, 0, 299) 0%, rgba(232, 20, 230) 35%, rgba(98, 135, 235) 100%);
+}
+/* @media only screen and (min-width: 767) and (max-width: 1000px){
+
+    #background-img-mobile{
+        bottom: 4em;
+    }
+
+    #background-gradient-img{
+        bottom: 4em;
+    }
+
+    #background-img{
+        bottom: 4em;
+    }
+} */
+
+@media only screen and (min-width: 400px) and (max-width: 767px){
+    .first-right-side{
+        margin-top: 249px;
+    }
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 993px){
+
+    #first-section-text{
+        top: 39px;
+    }
+
+    #second-section-text{
+        top:54px;
+    }
+
+    #tg-shape-btn{
+        top: 58px;
+        margin-left: 10px;
+    }
+
+    .tg-shape-btn-subscribtion{
+        position: relative;
+        width: 160px;
+        height: 38px;
+        border-radius: 40px;
+        background: linear-gradient(90deg, rgba(255, 0, 299) 0%, rgba(232, 20, 230) 35%, rgba(98, 135, 235) 100%);
+        right: 51px;
+    }
+
+
+}
+
 
