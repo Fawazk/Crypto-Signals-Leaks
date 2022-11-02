@@ -50,6 +50,7 @@ body {
     color: #FFFF;
 }
 
+
 .main-title{
     font-weight: 1000;
     line-height: 49.28px;
@@ -70,6 +71,7 @@ a{
     text-align: center;
 }
 
+
 @media only screen and (max-width: 768px) {
     .footer{
         text-align: center;
@@ -78,6 +80,13 @@ a{
     .logoimage{
         width: auto;
         margin: 5%;
+    }
+    .text-content-heading{
+        text-align: center;
+    }
+    .why-join-content{
+        padding: 8%;
+        text-align: center;
     }
 
 }
