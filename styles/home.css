@@ -51,7 +51,6 @@
     position: relative;
     width: 160px;
     height: 38px;
-    
     border-radius: 40px;
     background: linear-gradient(90deg, rgba(255, 0, 299) 0%, rgba(232, 20, 230) 35%, rgba(98, 135, 235) 100%);
 }
@@ -59,7 +58,8 @@
 .tg-img-svg{
     position: absolute;
     margin-left: -25px;
-    width: 40%;
+    margin-top: -13px;
+    width: 55%;
 }
 
 #big-tg-shape-btn{
@@ -205,21 +205,34 @@
         right: 51px;
     }
 
+    .green-tick{
+        position: absolute;
+        margin-left: 351px;
+    }
+
 
 }
 
 
 
-@media only screen and (min-width: 393px) and (max-width: 767px){
+@media only screen and (min-width: 375px) and (max-width: 767px){
+
+    #first-section-text{
+        top: 10px;
+    }
+
+    .first-right-side{
+        position: absolute;
+        top: 1px;
+    }
+
     #tg-shape-btn{
         top: 30px;
         margin-left: 14px;
 
     }
 
-    #first-section-text{
-        top: 10px;
-    }
+
 
     #second-section-text{
         top: 20px;
@@ -229,5 +242,44 @@
         margin-top: 9px;
     }
 
+    .green-tick{
+        position: absolute;
+        margin-left: 265px;
+    }
 
+    .lines-img{
+        padding-top: 8em;
+        display: none
+    }
+    
+    #bubble-1{
+        width: 39px;
+        display: none;
+        
+    }
+    
+    #bubble-2{
+        width: 39px;
+        display: none;
+    }
+
+
+}
+
+
+.lines-img{
+    position: absolute;
+    margin-top: 7em;
+    
+}
+
+#bubble-1{
+    width: 39px;
+    margin-left: 10em;
+    
+}
+
+#bubble-2{
+    width: 39px;
+    margin-left: 13em;
 }
