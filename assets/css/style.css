@@ -369,7 +369,7 @@ h6 {
   height: 60px;
   width: 200px;
   background: linear-gradient(90deg, #FF00E5 3.57%, #6287EB 97.5%);
-  border: none;
+  border: 5px;
   outline: none;
   color:#fff;
   cursor: pointer;
@@ -383,6 +383,31 @@ h6 {
   justify-content: center;
 }
 
+#hero .btn-3:before{
+  position: absolute;
+  content: '';
+  top: -2px;
+  left: -2px;
+  height: calc(100% + 4px);
+  width: calc(100% + 4px);
+  border-radius: 50px;
+  background: linear-gradient(45deg,#ff0000,#ff7300,#fffb00,#48ff00,#00ffd5,#002bff,#7a00ff,#ff00c8,#ff0000);
+  background-size: 400%;
+  z-index: -1;
+  animation: animate 20s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+
+  }
+}
 
 .bi-telegram {
   margin-right: 20px;
@@ -391,7 +416,6 @@ h6 {
   align-items: center;
   justify-content: center;
 }
-
 
 @media (max-width: 991px) {
   #hero {
@@ -702,6 +726,7 @@ font-size: 40px;
 font-family: "poppins",sans-serif;
 }
 
+
 .join-telegram .btn-1 img {
   margin-right: 10px;
 }
@@ -795,7 +820,7 @@ font-family: "poppins",sans-serif;
 #hero-1 .content {
   margin-left: 100px;
   text-align: justify;
-  width: 92%;
+  width: 90%;
 }
 
 #hero-1 span {
@@ -1201,6 +1226,11 @@ font-family: "poppins",sans-serif;
   color: #fff;
   background-repeat: no-repeat;
 }
+
+#footer svg {
+  margin-left: 150px;
+}
+
 
 #footer h4 span {
   background-color: #FF00E5;
